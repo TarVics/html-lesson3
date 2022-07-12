@@ -1,5 +1,6 @@
 .layout-main {
-    min-height: 25rem;
+    height: 25rem;
+    margin-top: 50px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -7,7 +8,6 @@
     justify-content: start;
     align-items: end;
     background: #fdfdfe;
-    margin-top: 50px;
 }
 .widget {
     position: relative;
@@ -41,8 +41,8 @@
     font-size: 1.3em;
 }
 .widget-text {
-    font-size: 1em;
     line-height: 1.8em;
+    font-size: 1em;
     overflow: hidden;
     color: #625f5f;
 }

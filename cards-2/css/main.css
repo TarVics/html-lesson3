@@ -22,15 +22,15 @@ body {
     background: #cdd7e0;
 }
 .top-left {
-    margin-left: 40px;
     width: 100px;
     height: 35px;
+    margin-left: 40px;
     border-radius: 5px;
     background: #102b3e;
 }
 .top-right {
-    color: #3d319a;
     margin-right: 40px;
+    color: #3d319a;
 }
 .top-right > i {
     margin: 10px;
@@ -40,21 +40,20 @@ body {
     background: #102b3e;
 }
 .section-bottom {
+    position: relative;
     height: 120px;
     background: #cdd7e0;
-    position: relative;
 }
 .layout-box {
-    height: 100px;
+    position: absolute;
+    top: -50px;
     width: 100%;
+    height: 100px;
     display: flex;
     flex-direction: row;
     column-gap: 15px;
     justify-content: center;
     align-items: center;
-
-    position: absolute;
-    top: -50px;
 }
 .box {
     width: 100px;
